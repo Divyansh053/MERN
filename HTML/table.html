@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta lang="en">
+    <meta charset="UTF-8">
+    <meta name="description" content="Work">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="Creator" content="Divyansh Sharma">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Table </title>
+</head>
+
+<body>
+    <table border="100" style="border-collapse: collapse;">
+        <caption>DATA</caption>
+
+        <tr>
+            <th>Serial</td>
+            <th>Name</td>
+            <th>Age</td>
+        </tr>
+        <tr>
+            <td rowspan="2">1</td>
+            <td>Divyansh</td>
+            <td>22</td>
+        </tr>
+        <tr>
+
+            <td>jatin</td>
+            <td>23</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td colspan="2">gungun</td>
+
+        </tr>
+
+    </table>
+    <br><br>
+
+    <form action="./index.html">
+        <label >Name</label>
+        <input type="text" name="userNAme" placeholder="Enter Name"><br>
+        <label >Number</label>
+        <input type="number" name="userNumber" placeholder="Enter number"><br>
+        <label >Age</label>
+        <input type="age" name="userAge" placeholder="Enter age"><br>
+        <label >Email</label>
+        <input type="email" name="userEmail" placeholder="Enter email" required><br>
+        <label for="select-city">City</label>
+        <select id="select-city" name="City">
+            <option>Delhi NCR</option>
+            <option>Pune</option>
+            <option>Mumbai</option>
+            <option selected>Bangalore</option>
+            <option>Hyderabad</option>
+        </select><br>
+        <label>Password</label>
+        <input type="password" name="userPassword" placeholder="Enter password" required ><br><br>
+        <label>Hobbies</label><br>
+        <input type="checkbox"name="userHobby" id="Cricket" value="Cricket"><label for="Cricket">Cricket</label><br>
+        <input type="checkbox"name="userHobby" id="Swimming" value="Swimming"><label for="Swimming">Swimming</label><br>
+        <input type="checkbox"name="userHobby" id="Singing" value="Cricket"><label for="Singing">Singing</label><br>
+        <input type="checkbox"name="userHobby" id="Drawing" value="Drawing"><label for="Drawing">Drawing</label><br><br>
+        <label>Gender</label><br>
+        <input type="radio"name="userGender" id="Male" value="Male"><label for="Male">Male</label><br>
+        <input type="radio"name="userGender" id="Female" value="Female"><label for="Female">Female</label><br>
+        <input type="radio"name="userGender" id="Others" value="Others"><label for="Others">Others</label><br><br>
+        <textarea name="userTextarea" placeholder="Enter text" cols="50" rows="10"></textarea><br><br>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit the form</button>
+        
+
+    </form>     
+</body>
+</html>
