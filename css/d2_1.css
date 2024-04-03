@@ -1,0 +1,43 @@
+.parent {
+    background-color: bisque;
+    padding: 16px;
+    margin: 10px;
+    /* 4 methods of giving margin ie top bottom left right sbka alag */
+    /* margin: 16ps 10 px; top bottom and left right */
+    /* margin: 15px 200 px 2139 px; top rightleft bottom */
+    /* magin left margin right sbki alag alg
+    same goes for border and padding */
+    border: 5px dotted aqua;
+}
+
+.heading {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* width: border(l&r)+content+padding; */
+}
+
+.child{
+    p{
+        padding: 4;
+        background-color: aquamarine;
+        width: fit-content;
+    }
+    span{
+        padding: 44px;
+        width: 250px;
+        background-color: blueviolet;
+    }
+}
+.allign{
+    width: 200px;
+    text-align: center;
+    background-color: red;
+    margin: 0 auto;
+}
+.img{
+    display: block;
+    border: 1px solid black;
+    margin: 0 auto;
+    text-align: center ;
+}
