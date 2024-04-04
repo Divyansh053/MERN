@@ -1,0 +1,97 @@
+/* .parent {
+    display: grid;
+    /* grid-template-columns: 50px 50px 50px; */
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* grid-template-columns: repeat(4, 50px); */
+    /* grid-template-rows: 50px 55px 50px; */
+    /* grid-auto-rows: auto; */
+    /* background-color: aqua;
+    column-gap: 10px;
+    row-gap: 20px;
+}
+
+.child {
+    background-color: yellow;
+    margin: 10px;
+    border: 2px solid black;
+    text-align: center;
+    padding: 7px;
+} */ 
+/* 
+.parent{
+    display: grid;
+    grid-auto-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: aqua;
+    column-gap: 1px;
+    row-gap: 1px;
+}
+.child{
+    background-color: yellow;
+    margin: 1px;
+    border: 2px solid black;
+    text-align: center;
+    padding: 7px;
+}
+.header{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.menu{
+    padding: 33px;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.footer{
+    grid-column-start: 2;
+    grid-column-end: 4;
+} */
+/* .parent{
+    border: 5px solid black;
+    display: grid;
+    grid-auto-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
+    background-color: white;
+    column-gap: 1px;
+    row-gap: 1px;
+}
+.child {
+    background-color: white;
+    margin: 2px;
+    text-align: center;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+} 
+.box1{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: black;
+}
+.box2{
+    color: yellow;
+    grid-row-start: 4;
+    grid-row-end: 8;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: yellow;
+}
+.box3{
+    color: red;
+    grid-row-start: 4;
+    grid-row-end: 8;
+    grid-column-end: 4;
+    background-color: red;
+}
+.box4{
+    color: blue;
+    grid-row-start: 9;
+    grid-row-end: 13;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: blue;
+} */
