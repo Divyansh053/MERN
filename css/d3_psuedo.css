@@ -23,7 +23,7 @@ scale: 5;
 /* animation */
 
 
-button{
+/* button{
     scale: 2;
     position: absolute;
     top: 20px;
@@ -32,8 +32,8 @@ button{
     animation-duration: 1ms;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    /* animation-direction: alternate; */
-}
+    animation-direction: alternate;
+} */
 /* @keyframes type-1{
     from{
         top: 20px;
@@ -45,7 +45,7 @@ button{
         left: 500px;
     }
 } */
-@keyframes type-1{
+/* @keyframes type-1{
     0%{
         top: 20px;
        left: 40px;
@@ -66,4 +66,4 @@ button{
         top: 20px;
         left: 40px;
     }
-}
+} */
