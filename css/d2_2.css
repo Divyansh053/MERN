@@ -1,13 +1,17 @@
-*{
+* {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
-body{
-    height: 50vh;
-    width: 50vw;
-    background-color: aqua;
+
+body {
+    height: 100vh;
+    width: 100vw;
+    /* background-color: aqua; */
+    padding: 10px 32px;
 }
-.parent{
+
+/* .parent{
     font-size: 32px;
     height: 100%;
     background-color: azure;
@@ -21,11 +25,90 @@ body{
     display: block;
     padding: 1em;
     border-radius: 1em;
-    border: none;
+    border: none;a
     font-size: 16px;
     margin: 10px auto;
     width: 16em;
 }
 .btn-small{
-    font-size: 10px;
+    font-size: 10px;        
 }
+.p{
+    height: 50%;
+    background-color: brown;
+}
+.c{
+    width: 50%;
+    min-height: 200px;
+    padding: 16px 32px;
+    background-color: blueviolet;
+    max-height: 300px;
+    overflow: hidden;
+} */
+/* .p1 { */
+    /* ol{
+        background-color: blueviolet;
+    }
+    ul:first-child{
+        background-color: blue;
+    }
+    ul:last-child{
+        background-color: pink;
+       li:nth-child(3){
+        background-color: purple;
+       }
+        } */
+        /* ul:last-child{
+            li:first-of-type{
+            background-color: aquamarine;
+            }
+        } */
+
+/* }
+.p2 ul{
+background-color: aqua;
+}
+.p2>ul{
+    background-color: brown;
+}
+.p2+ul{
+    background-color: green;
+} */
+.parent{
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.parent1{
+    background-color: aqua;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+}
+.parent2{
+    background-color: aqua; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.parent3{
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.child{
+    background-color: aquamarine;
+    border: 1px solid red;
+    flex-basis: 40px;
+    flex-shrink: 0;
+}
+/* .search-box{
+flex-grow: 3;
+flex-shrink: 1;
+} */
+/* .cart{
+    flex-grow: 1; */
+/* } */
