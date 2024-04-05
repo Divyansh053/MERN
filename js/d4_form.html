@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS FORM</title>
+</head>
+<body>
+    <div>
+        <form onsubmit="submitForm(event)">
+            <br><br>
+            <label>First Name:</label>
+            <input type="text" name="First Name" placeholder="first name" onkeydown=firstNameChange(event)><br><br>
+            <!-- <input type="text" name="First Name" placeholder="first name" onkeydown="firstnamechange()"><br><br> -->
+            <!-- <input type="text" name="First Name" placeholder="first name" onchange="firstnamechange()"><br><br> -->
+            <label>Last Name:</label>
+            <input type="text" name="Last Name" placeholder="last name" onchange=""><br><br>
+            <label>Age:</label>
+            <input type="number" name="Age" placeholder="age" onchange=""><br><br>
+            <label>Hobbies:</label><br>
+            <input type="checkbox"name="Hobbies" value="Cricket"><label>Cricket</label>
+        <input type="checkbox"name="Hobbies"  value="Swimming"><label >Swimming</label>
+        <input type="checkbox"name="Hobbies" value="Cricket"><label>Singing</label><br><br>
+        <button type="submit">Submit the form</button>
+    </form>
+    </div>
+    <script src="d4_form.js"></script>
+</body>
+</html>
